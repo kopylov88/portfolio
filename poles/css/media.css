@@ -1,0 +1,244 @@
+@media (max-width: 1200px) {
+  .factory__benefits {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .factory__benefits-item {
+    width: 45%;
+  }
+  .factory__images {
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+  }
+  .factory__images img {
+    width: 100%;
+  }
+  .process__box {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+@media (max-width: 1080px) {
+  .factory__achievements-inner {
+    flex-wrap: wrap;
+  }
+  .factory__achivements-item {
+    width: 45%;
+  }
+  .factory__post {
+    margin-bottom: 20px;
+  }
+  .products__info {
+    display: none;
+  }
+  .header {
+    min-height: 100vh;
+  }
+}
+@media (max-width: 1000px) {
+  .header__menu {
+    gap: 20px;
+  }
+  .products__gallery {
+    gap: 10px;
+  }
+  .power__info {
+    flex-wrap: wrap;
+  }
+  .power__info-item {
+    width: 45%;
+  }
+  .factory__info {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 900px) {
+  .header__menu {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    left: 0;
+    margin: 0 -15px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    height: calc(100vh - 100px);
+    background-color: #556c89;
+    transform: translateX(-100%);
+    transition: 0.3s;
+  }
+  .header__menu.active {
+    transform: translateX(0);
+  }
+  .hamb {
+    display: flex;
+  }
+  .delivery__collections {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 767.9px) {
+  .header__top {
+    padding-top: 15px;
+    padding-bottom: 0;
+    margin-bottom: 60px;
+  }
+  .header__content-title {
+    font-size: 48px;
+  }
+  .header__content-text {
+    font-size: 18px;
+  }
+  .products__gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .products__gallery-item {
+    width: 45%;
+  }
+  .products__info {
+    margin-bottom: 50px;
+  }
+  .power,
+  .products,
+  .factory,
+  .process,
+  .delivery,
+  .question {
+    padding: 50px 0;
+  }
+  .factory__benefits {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .factory__benefits-item {
+    width: 100%;
+  }
+  .factory__benefits-text {
+    max-width: 100%;
+  }
+  .factory__title:before {
+    left: 0;
+  }
+  .factory__post {
+    margin-top: 0;
+  }
+  .factory__achivements-item {
+    width: 100%;
+  }
+  .factory__achivements-value:after {
+    width: 70%;
+    margin: 20px auto;
+  }
+  .factory__block-title {
+    font-size: 28px;
+  }
+  .process__box {
+    display: flex;
+    flex-direction: column;
+  }
+  .delivery__box {
+    flex-direction: column;
+  }
+  .delivery__box-item,
+  .delivery__box-text {
+    max-width: 100%;
+  }
+  .delivery__slider {
+    margin-bottom: 120px;
+  }
+  .slick-prev {
+    bottom: -80px;
+  }
+  .slick-next {
+    bottom: -80px;
+  }
+  .footer__inner {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+}
+@media (max-width: 700px) {
+  .delivery__collections {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .header {
+    min-height: 100vh;
+  }
+  .header__logo img {
+    max-width: 100px;
+  }
+  .header__btn {
+    font-size: 10px;
+    width: 110px;
+  }
+  .header__contacts {
+    width: 100%;
+    order: 2;
+    justify-content: flex-end;
+  }
+  .header__menu {
+    top: 120px;
+  }
+  .header__top {
+    margin-bottom: 25px;
+    gap: 5px;
+  }
+  .header__content-title {
+    font-size: 36px;
+  }
+  .header__content-text {
+    font-size: 15px;
+  }
+  .products {
+    padding: 50px 0;
+  }
+  .products__gallery-item {
+    width: 100%;
+    height: 300px;
+  }
+  .power__info-item {
+    width: 100%;
+  }
+  .products__info {
+    display: none;
+  }
+  .power__btn {
+    width: 100%;
+  }
+  .factory__title:before {
+    display: none;
+  }
+  .question__title {
+    font-size: 36px;
+  }
+  .slick-track {
+    height: 270px;
+  }
+  .title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 450px) {
+  .delivery__collections {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 400px) {
+  .factory__item {
+    background-size: 40px 40px;
+  }
+  .process__box-item {
+    padding: 10px;
+  }
+  .process__box-item:before {
+    display: none;
+  }
+}
